@@ -1,0 +1,22 @@
+.notesInput,
+.addNotesButton {
+  padding: 10px 10px;
+  font-size: 20px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.notesInput {
+  border-radius: 10px 0 0 10px;
+}
+
+.addNotesButton {
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  color: rgba(4, 209, 4, 0.76);
+  font-weight: 600;
+  &:hover {
+    color: rgb(4, 209, 4);;
+  }
+}

@@ -1,0 +1,20 @@
+.tagContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteTag {
+    margin-right: 5px;
+    background: none;
+    color: red;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tagTitle {
+    font-size: 24px;
+    margin: 15px 0;
+}
